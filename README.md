@@ -43,6 +43,11 @@ The CI/CD pipeline facilitates a more efficient and reliable software developmen
 * Accept the remainder of default settings and choose Save changes****
 
 ### Bucket Creation
+* Use a bucket policy that grants public read access:
+
+* Click the Permissions tab for your S3 bucket
+Under Bucket Policy, Click Policy Generator and find the Action for GetObject, and Click Generate Policy and the following code will be generated:
+
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/a089be21-6275-47cf-a31d-31ae555d861a)
 Editing Bucket Policy
 ```
@@ -59,6 +64,11 @@ Editing Bucket Policy
 	]
 }
 ```
+
+* Click the Permissions tab again and erase the current policy and replace it with the code from above. *Note: if you’re following along with this project, replace the ARN with the name of your bucket. Do not forget to add the /* after your bucket name!
+* Click Save changesClick the Permissions tab again and erase the current policy and replace it with the code from above. *Note: if you’re following along with this project, replace the ARN with the name of your bucket. Do not forget to add the /* after your bucket name!
+* Click Save changes
+
 Enable Static website hosting for S3 </br>]
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/77dc124f-a55f-4512-902d-c8ec09bb4343)
 Enabling the bucket to be Public. </br>
