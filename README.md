@@ -25,10 +25,23 @@ The CI/CD pipeline facilitates a more efficient and reliable software developmen
 ## Use Case</br>
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/eb34157e-6ad7-47ab-bb9c-804a751155d4)
 
-
-## Getting started with AWS for Machine Learning
-## AWS Machine Learning & AI Platforms Introduction</br>
 ## Amazon S3 introduction</br>
+### To create an Amazon S3 bucket:
+
+#### Sign in to the AWS Management Console and open the Amazon S3 console at https://console.aws.amazon.com/s3/
+* Choose Create bucket
+* Enter the Bucket name
+* Choose the Region where you want to create the bucket
+* In the Block Public Access settings for the bucket section, uncheck the box for Block all public access
+* Accept the remainder default settings and create the bucket, choose Create
+
+#### Enable website hosting for your S3 bucket:
+* Click on your newly created bucket and then click the Properties tab
+* Scroll to the bottom and choose edit on the Static website hosting section
+* Select Enable: Static website hosting
+* Fill in the index.html and error.html fields
+* Accept the remainder of default settings and choose Save changes****
+
 ### Bucket Creation
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/a089be21-6275-47cf-a31d-31ae555d861a)
 Editing Bucket Policy
