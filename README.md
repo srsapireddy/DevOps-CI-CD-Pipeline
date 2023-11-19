@@ -161,25 +161,26 @@ Deploy: Deploying your web app
 #### Updated WebApp Page
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/a49f6ad6-9dda-40fc-b018-a6969899ac6b)
 
-### Making changes to Pipeline
+### Making changes to Pipeline (Differentiating Development Stage and Deployment Stage in the pipeline)
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/e83fc634-7d5d-4f4b-9e88-5e444339742d)
-![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/25f8d62e-ceba-45e4-ab7b-dbd9c12f8ccf)
+![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/25f8d62e-ceba-45e4-ab7b-dbd9c12f8ccf) </br>
 
 Make changes in GitHub again. After a few seconds, the pipeline will start executing. It shows that dev-approval is in progress. </br>
-![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/44e85980-abf8-4987-a53a-b3dd2e983f5d)
 
-Approving Review for Dev
+![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/44e85980-abf8-4987-a53a-b3dd2e983f5d) </br>
+
+Approving Review for Dev </br>
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/8287b92d-43b0-4b1a-bb17-19ad5c70411a)
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/aecd22e2-048c-4fde-805a-6cb3bd13c568)
 
-### S3 Bucket 
+### S3 Bucket with development and prod applications
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/b76d6d03-4642-4094-92b7-e09975a893a2)
 
 ### Dev-Deploy WebApp
-![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/aa953c0c-4c4d-44e6-b341-d707105be646)
+![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/aa953c0c-4c4d-44e6-b341-d707105be646) </br>
 
-However, the production server will be serving the old app. After we approve the prod to be deployed, we get the updated prod web app server with new features.
-![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/61a6ad6d-8962-4389-b91e-34e0749824d3)
+However, the production server will be serving the old app. After we approve the prod to be deployed, we get the updated prod web app server with new features. </br>
+![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/61a6ad6d-8962-4389-b91e-34e0749824d3) </br>
 
 ### Prod-Deploy WebApp
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/595a72bb-fe7f-4d74-a644-7f7d3e3101cb)
@@ -188,4 +189,4 @@ However, the production server will be serving the old app. After we approve the
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/f5b36b73-1578-4b55-b77b-09cebdf75b91)
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/7160ab32-ecc9-42db-83a6-0b778375b499)
 
-### Reference Code: https://github.com/srsapireddy/mlops-nov
+### Reference Code for Web ASpplication: https://github.com/srsapireddy/mlops-nov
