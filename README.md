@@ -165,9 +165,7 @@ Deploy: Deploying your web app
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/e83fc634-7d5d-4f4b-9e88-5e444339742d)
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/25f8d62e-ceba-45e4-ab7b-dbd9c12f8ccf)
 
-Make changes in GitHub again. </br>
-After a few seconds, the pipeline will start executing. </br>
-It shows that dev-approval is in progress. </br>
+Make changes in GitHub again. After a few seconds, the pipeline will start executing. It shows that dev-approval is in progress. </br>
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/44e85980-abf8-4987-a53a-b3dd2e983f5d)
 
 Approving Review for Dev
