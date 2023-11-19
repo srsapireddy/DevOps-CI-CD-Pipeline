@@ -71,7 +71,7 @@ Editing Bucket Policy
 
 Enable Static website hosting for S3 </br>]
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/77dc124f-a55f-4512-902d-c8ec09bb4343)
-Enabling the bucket to be Public. </br>
+You’ll see that the bucket is now publicly accessible/has public access. We can move on to setting up our pipeline! </br>
 
 ## Amazon S3 for Machine Learning 
 ### Creating CodePipeline (Initial Version)
