@@ -127,6 +127,13 @@ Once you click Create Project, a CodeBuild window will launch.
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/49c24f1c-9084-4751-a842-2bbf5fd80a96)
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/d66284d7-32cc-4750-a422-5d746dc2aba1)
 
+## Test & verify that you can reach the static website:
+* Navigate to S3 in a new browser tab
+* Click on the S3 bucket name: codepipeline-08project
+* Click Properties
+* Scroll to the bottom of the page and under Static website hosting, click the Bucket website endpoint URL
+Because we set up the S3 bucket policy to have read access, you should see the following screen when you click the URL:
+
 ### Check for the End Point
 ```
 [http://mlops-now.s3-website-us-east-1.amazonaws.com](http://mlops-now.s3-website-us-east-1.amazonaws.com/prod)
@@ -135,11 +142,17 @@ Once you click Create Project, a CodeBuild window will launch.
 ### Final Application of DevOps Pipeline
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/0f21c1b4-a678-42e2-ab36-0b4d3c34178a)
 
-Source: WHERE WE ARE FETCHING OUR CODE
-BUILDING OUR ARTIFACT
-AND DEPLOYING OUT WEBAPP
+Source: where we are fetching our code
+Build: where we are building our artifact
+Deploy: Deploying your web app
 
 ### Making changes in GitHub code to check pipeline process
+* Make changes to code & verify that the CodePipeline is triggered:
+* Open the HTML in VS Code Studio
+* Make changes to the code
+* Commit & Push code back to your GitHub Repository
+* Verify that the CodePipeline is triggered and updates your static website!
+
 #### Commit Changes
 ![image](https://github.com/srsapireddy/AWS-Machine-Learning-Operations-MLOps/assets/32967087/0909def0-3fca-4268-bbb4-d35ecda93a3a)
 #### Pipeline will trigger from start build process
